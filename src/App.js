@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
+import Header from './components/common/Header'
 
 class App extends Component {
-	state = { text: 'Hello World!' }
 	
 	render() {
 		return (
 			<View>
-				<Text>{this.state.text}</Text>
+				<Header headerText={'testing'}/>
 			</View>
-		)
-	}
+		);
+	};
 }
 
 export default App;
