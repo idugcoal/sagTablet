@@ -7,7 +7,8 @@ class App extends Component {
 	render() {
 		return (
 			<View>
-				<Header headerText={'testing'}/>
+				<Header headerText={'header test'}/>
+				<Button value={'button test'} />
 			</View>
 		);
 	};
